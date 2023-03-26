@@ -10,7 +10,7 @@ int number = Convert.ToInt32(value);
 int i = 1; // начало промежутка
 while (i <= number)
 {
-    if (i % 2==0)
-    Console.Write(i+" ");
+    if (i % 2 == 0)
+        Console.Write(i + " ");
     i++;
 }
